@@ -1,0 +1,70 @@
+body {
+	background: url('images/m1.jpg')no-repeat; 
+	-moz-background-size: 100%; 
+    -webkit-background-size: 100%; 
+    -o-background-size: 100%; 
+    background-size: 100%;
+}
+.p {
+	position: relative;
+	margin-left: 36%;
+	background: black;
+    height: 130px;
+	width: 600px;
+	
+}
+.rez {
+	position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+	color: white;
+	font-size: 70px;
+}
+#line{
+	
+	background: black;
+	height: 10px;
+}
+#info {
+	background: white;
+	height: 250px;
+	width: 96%;
+	margin-left: 2%;
+}
+.fio {
+	position: relative; 
+      float: left;
+      color: black;
+      width: 100%;
+	  font-size: 48px;
+	  font-weight:600;
+}
+.fio2 {
+	top: 10px;
+	font-size: 30px;
+	font-weight: normal;
+	
+}
+.fio3 {
+	left: 30%;
+	font-size: 30px;
+	font-weight: normal;
+	color: black;
+}
+#avatar{
+	position: absolute; 
+    right: 50px; 
+    top: 150px;
+}
+#info2 {
+	metop: 250px;
+	background-color: e6eded;
+	height: 250px;
+	width: 96%;
+	margin-left: 2%;
+}
