@@ -1,0 +1,25 @@
+<html>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<head>
+	<script src="script.js"></script>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	</head>
+	<body>
+		<div id ="x">
+			X1: <input type="text" id="x1"></br>
+			X2: <input type="text" id="x2"></br>
+		</div>
+		<div id ="button">
+			<input type="button" value="Run" onclick="buttonClick()"></br>
+			<input type="button" id="clear" value="Очистить" onclick="my_clear()"></br>
+		</div>
+		<form name="form_switch">
+			<input type="radio" id="SA" name="switches" checked="checked" value="1"  /><span>сумма всех чисел от х1 до х2</span>
+			<input type="radio" id="P" name="switches"  value="2" /><span>произведение всех чисел от х1 до х2</span>
+			<input type="radio" id="S" name="switches"  value="3" /><span>cумма х1 и х2</span>
+			<input type="radio" id="PN" name="switches"  value="4" /><span>простые числа от х1 до х2</span>
+		</form>
+		<div id="result" ></div>
+	</body>
+
+</html>
